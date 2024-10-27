@@ -1,0 +1,259 @@
+*{
+    margin:0px;
+    border:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+   height: 10px;
+    color: black;
+     display:flex;
+}
+.nav-logo{
+    height: 50px;
+    width:100px;
+    margin-left: 50px;
+}
+.logo{
+    background-image:url(gdglogo.png);
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.add-first{
+    color: #979999;
+    font-size: 1.55rem;
+    margin-top: 35px;
+}
+a{
+    text-decoration: none;
+    color: #464848;
+    font-weight:  500;
+}
+.nav-aboutus{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 750px;
+    font-size: 1.15rem;
+}
+.nav-events{
+    display: flex;
+    margin-top:45px;
+    margin-left:30px;
+    font-size: 1.15rem;
+}
+.nav-highlights{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 30px;
+    font-size: 1.15rem;
+}
+.nav-contact{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 30px;
+    font-size: 1.15rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    color: #464848;
+    margin-top: 00px;
+    font-size: 6rem;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    color: #464848;
+    font-size: 1.75rem;
+}
+.yellblue{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.redgreen{
+   display: flex;
+   
+  
+}
+.yellowball{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:rgb(249, 249, 59);
+    margin-top: 65px;
+    margin-right: 100PX;
+    animation: coloranimate 6s ease-in-out infinite alternate;
+}
+@keyframes coloranimate {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(100px); 
+    }
+  }
+.blueball{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(45, 45, 163);
+    border-radius: 50%;
+    margin-left: 50px;
+    animation: coloranimate 6s ease-in-out infinite alternate;
+}
+.redball{
+    display: flex;
+    height: 350px;
+    width: 350px;
+    background-color: rgb(254, 23, 23);
+    border-radius: 50%;
+    margin-right: 800px;
+    
+    animation: coloranimate 6s ease-in-out infinite alternate;
+}
+.greenball{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(34, 161, 34);
+    border-radius: 50%;
+    margin-right: 200px;
+    animation: coloranimate 6s ease-in-out infinite alternate;
+}
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font-size: 5rem;
+    color: #979999;
+    background-color: #011240;
+  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about{
+     display: flex;
+    height: 560px;
+    width: 1519px;
+
+}
+.intro{
+    height: 510px;
+    width: 1000px;
+    background-color: #011240;
+}
+.familia{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    background-image: url(alfamilia.png);
+    background-size:contain;
+}
+.intro-lines{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.35rem;
+   
+}
+.intro-lines2{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.35rem;
+
+}
+.events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.events-part{
+    display:inline-flex;
+   align-items: center;
+    height: 500px;
+    width: 1519px;
+    background-color: #011240;
+}
+.events-geek{
+    margin-left: 20px;
+    height: 350px;
+    width: 350px;
+    background-image: url(geek.png);
+    background-size: cover;
+}
+.events-kube{
+    margin-left: 20px;
+    height: 350px;
+    width: 350px;
+    background-image: url(kubetools.png);
+    background-size: cover;
+}
+.events-study{
+    margin-left: 20px;
+    height: 350px;
+    width: 350px;
+    background-image: url(studyjams.png);
+    background-size: cover;
+}.events-work{
+    margin-left: 20px;
+    height: 350px;
+    width: 350px;
+    background-image: url(workshop.png);
+    background-size: cover;
+}
+footer{
+    height: 300px;
+ 
+}
+.clubname{
+    color:#464848;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 1.5rem;
+}
+.location{
+    margin-left: 150px;
+    font-size: 1.15rem;
+}
+.location-spec{
+    margin-left: 150px;
+    font-size: 1.15rem;
+}
+.country{
+    margin-left: 150px;
+    font-size: 1.15rem;
+}
+.follow{
+    margin-top: 50px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+.links{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin-left: 735px;
+    margin-top: 15px;
+}
+.twitterlogo{
+    height: 25px;
+}
+.instalogo{
+    height: 25px;
+}
